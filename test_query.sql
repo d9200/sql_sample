@@ -1,1 +1,9 @@
-SELECT NOW();
+CREATE TABLE customer (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ postalCode VARCHAR() default NULL,
+)
+ CREATE TABLE product (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ product_name VARCHAR() NOT NULL,
+ price VARCHAR() NOT NULL,
+);
